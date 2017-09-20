@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>burger_menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D0D0D0" offset="0%"></stop>
+            <stop stop-color="#FEFEFE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="burger_menu">
+            <g id="event" fill="url(#linearGradient-1)">
+                <circle id="Oval-3" cx="26" cy="26" r="26"></circle>
+            </g>
+            <g id="001-three" transform="translate(13.000000, 17.000000)" fill-rule="nonzero" fill="#000000">
+                <path d="M25.4667202,9.98521655 L0.985706774,9.98521655 C0.441596635,9.98521655 0,9.54052804 0,8.99260828 C0,8.44468851 0.441596635,8 0.985706774,8 L25.4654059,8 C26.0095161,8 26.4511127,8.44468851 26.4511127,8.99260828 C26.4511127,9.54052804 26.0108304,9.98521655 25.4667202,9.98521655 Z" id="Shape"></path>
+                <path d="M25.4667202,1.98521655 L0.985706774,1.98521655 C0.441596635,1.98521655 0,1.54052804 0,0.992608276 C0,0.444688508 0.441596635,0 0.985706774,0 L25.4654059,0 C26.0095161,0 26.4511127,0.444688508 26.4511127,0.992608276 C26.4511127,1.54052804 26.0108304,1.98521655 25.4667202,1.98521655 Z" id="Shape"></path>
+                <path d="M25.4667202,17.9852166 L0.985706774,17.9852166 C0.441596635,17.9852166 0,17.540528 0,16.9926083 C0,16.4446885 0.441596635,16 0.985706774,16 L25.4654059,16 C26.0095161,16 26.4511127,16.4446885 26.4511127,16.9926083 C26.4511127,17.540528 26.0108304,17.9852166 25.4667202,17.9852166 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

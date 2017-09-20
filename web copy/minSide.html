@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>event</title>
+</head>
+
+<body>
+    <div class="menu margin">
+        <div id="menu_button" class="icon_btn">
+            <img id="logo" src="svg/burger_menu.svg" alt="logo" class="icon_btn_img">
+        </div>
+    </div>
+    <div id="side_menu" class="margin_left">
+        <div class="news_link icon_btn" onclick="sideMenuOff()">
+            <a href="news.html"><img src="svg/megaphone_oval.svg" alt="megaphone" class="icon_btn_img"></a>
+        </div>
+
+        <div class="interview_link icon_btn" onclick="sideMenuOff()">
+            <a href="interview.html"><img src="svg/microphone_oval.svg" alt="microphone" class="icon_btn_img"></a>
+        </div>
+
+        <div class="events_link icon_btn" onclick="sideMenuOff()">
+            <a href="event.html"><img src="svg/calendar_oval.svg" alt="calendar" class="icon_btn_img"></a>
+        </div>
+
+        <div class="mypage_link icon_btn" onclick="sideMenuOff()">
+            <a href="minSide.html"><img src="svg/mypage_oval.svg" alt="mypage" class="icon_btn_img"></a>
+        </div>
+    </div>
+
+
+
+
+    <h6>MIN SIDE</h6>
+
+
+    <form>
+        <p class="formText">Epost</p>
+        <input type="text" class="input_text" name="epost" placeholder="hanne@adresse.no">
+        <!--        <div></div><i class="fa fa-pencil" aria-hidden="true"></i>-->
+
+
+        <p class="formText">Passord</p>
+        <input type="password" class="input_text" name="passord" placeholder="******">
+        <!--            <i class="fa fa-pencil" aria-hidden="true"></i>-->
+
+    </form>
+
+
+
+    <p>Lagrede artikler
+        <img class="done" src="img/done_check.svg" alt="done"></p>
+
+    <div class="flexIkon">
+        <img class="ikon" src="img/news.png" alt="ikon">
+        <p class="blueStyle">Artikkeloverskrift blabla</p>
+    </div>
+
+    <div class="flexIkon">
+        <img class="ikon" src="img/event.png" alt="ikon">
+        <p class="blueStyle">Artikkeloverskrift blabla</p>
+    </div>
+
+    <div class="flexIkon">
+        <img class="ikon" src="img/interview.png" alt="ikon">
+        <p class="blueStyle">Artikkeloverskrift blabla</p>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="kontaktBox">
+
+        <div class="box">
+
+            <h3>Kontakt oss</h3>
+
+            <input type="email" class="input_text" placeholder="epost@adresse.no">
+            <input type="text" class="input_text higher" placeholder="skriv til oss...">
+            <div class="buttonEpost" onclick="myFunction()">Send!</div>
+
+            <div id="some" class="flexIkon">
+                <img class="some" src="img/instagram.svg">
+                <img class="some" src="img/facebook.svg">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

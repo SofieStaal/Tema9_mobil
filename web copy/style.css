@@ -1,0 +1,388 @@
+/*@media only screen and (max-width: 650px)*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F6F6F6;
+}
+
+.menu {
+    width: 100%;
+    height: 11%;
+    overflow: auto;
+    display: block;
+    z-index: 1;
+    position: fixed;
+}
+
+#logo {
+    float: left;
+    width: 45vw;
+    padding: 3%;
+}
+
+#news,
+#event,
+#interview {
+    width: 62px;
+    height: auto;
+    float: right;
+    padding: 5px;
+}
+
+#minSide {
+    width: 8px;
+    height: 37px;
+    float: right;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    color: #fff;
+    bottom: 24px;
+    padding-left: 15px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #fff;
+    overflow: auto;
+    bottom: 5px;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    padding-left: 16px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+    color: #fff;
+    overflow: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+    overflow: auto;
+    text-align: center;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000;
+    overflow: auto;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #184974;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+    width: 90vw;
+    margin: 16px;
+}
+
+.sitat {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #184974;
+    padding-bottom: 36px;
+    padding-top: 36px;
+    padding-left: 10px;
+    border-left: 2px solid #485563;
+}
+
+img {
+    width: 100vw;
+}
+
+.bildeOverskrift {
+    position: relative;
+    height: 45vh;
+}
+
+.bildeOverskrift2 {
+    position: relative;
+    height: 200px;
+    background: linear-gradient( rgba(72, 85, 99, 0.5), rgba(41, 50, 60, 0.8)), url(img/event.jpg);
+    background-size: cover;
+}
+
+#news1 {
+    background: linear-gradient( rgba(72, 85, 99, 0.5), rgba(41, 50, 60, 0.8)), url(img/news.jpg);
+    background-size: cover;
+}
+
+#news2 {
+    background: linear-gradient( rgba(72, 85, 99, 0.5), rgba(41, 50, 60, 0.8)), url(img/x.png);
+    background-size: cover;
+}
+
+#iv1 {
+    background: linear-gradient( rgba(72, 85, 99, 0.5), rgba(41, 50, 60, 0.8)), url(img/int.jpg);
+    background-size: cover;
+}
+
+#iv2 {
+    background: linear-gradient( rgba(72, 85, 99, 0.5), rgba(41, 50, 60, 0.8)), url(img/img7.jpg);
+    background-size: cover;
+}
+
+.star {
+    width: 20px;
+    bottom: 25px;
+    right: 10px;
+    display: inline-block;
+    position: absolute;
+}
+
+.eta {
+    margin-left: 8px;
+}
+
+.stopwatch_article {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+    margin-bottom: -2px;
+}
+
+.done {
+    width: 25px;
+    padding-left: 10px;
+}
+
+#readMore {
+    width: 90%;
+    padding: 0px 0;
+    display: none;
+}
+
+.button {
+    background-color: #184974;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 4px 14px;
+    text-align: center;
+    width: 150px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button2 {
+    background-color: #184974;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 4px 14px;
+    text-align: center;
+    width: 150px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    width: 100%;
+    background-color: #29323C;
+    padding-bottom: 24px;
+}
+
+.input_text {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+
+.higher {
+    height: 130px;
+}
+
+.buttonEpost {
+    background-color: #AEE5CA;
+    color: #000;
+    padding: 2px 14px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 25px;
+}
+
+.displaynone {
+    display: none;
+}
+
+#myDIV {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(237, 237, 237, 0.82);
+}
+
+.event_text {
+    text-align: center;
+    margin: 0;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#ev_link {
+    color: black;
+}
+
+.buttonEvent {
+    background-color: #AEE5CA;
+    color: #000;
+    padding: 2px 24px;
+    font-size: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 130px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.eventInfo {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(185, 185, 185, 0.2);
+    padding-top: 10px;
+}
+
+.datoBox {
+    height: 70px;
+    width: 18%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#29323C), to(#485563));
+    background: -webkit-linear-gradient(#29323C, #485563);
+    background: -o-linear-gradient(#29323C, #485563);
+    background: linear-gradient(#29323C, #485563);
+    border-radius: 0 20px 0 0;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.placeBox {
+    width: 70%;
+    padding-top: 6px;
+}
+
+.dato {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.month {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 22px;
+}
+
+.kontaktBox {
+    width: 100%;
+    background-color: #184974;
+}
+
+.ikon {
+    width: 15vw;
+    max-height: 62px;
+    display: inline;
+}
+
+.ikonGruppe {
+    display: inline-block;
+}
+
+.some {
+    width: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#some {
+    margin-top: 16px;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.flexIkon {
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    width: 100vw;
+    display: flex;
+}
+
+.blueStyle {
+    font-weight: 300;
+    font-size: 16px;
+    color: #184974;
+    width: 85vw;
+    padding-left: 5vw;
+}
+
+.formText {
+    font-weight: 300;
+    font-size: 16px;
+    color: #184974;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+form {
+    margin-bottom: 8vh;
+}
