@@ -25,20 +25,31 @@ body {
     padding: 3%;
 }
 
+#logoBlack {
+    width: 45vw;
+    padding: 3%;
+}
+
 #news,
 #event,
-#interview {
-    width: 62px;
+#interview,
+#minSide {
+    width: 44px;
     height: auto;
     float: right;
     padding: 5px;
 }
 
-#minSide {
+kkk {
     width: 8px;
     height: 37px;
     float: right;
     margin: 5px;
+    margin-top: 10px;
+}
+
+.header {
+    display: block;
     margin-top: 10px;
 }
 
